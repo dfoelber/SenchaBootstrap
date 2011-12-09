@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Bootstrap Dropdown Test</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js" type="text/javascript"></script>
+        <script src="../lib/bootstrap-buttons.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+
+        <script type="text/javascript">
+            function toggle() {
+                Ext.get('btnToggle').button('toggle');
+            }
+
+            function setLoad() {
+                Ext.get('btnLoad').button('loading');
+            }
+
+            function reset() {
+                Ext.get('btnLoad').button('reset');
+            }
+        </script>
+    </head>
+
+    <body style="margin: 10px">
+        <button id="btnToggle" class="btn" onclick="toggle()">Toggle Button</button>
+        <button id="btnLoad" class="btn" data-loading-text="Loading..." onclick="setLoad()">Click to Load</button>
+        <button class="btn" onclick="reset()">Reset Loading Button</button>
+    </body>
+</html>
