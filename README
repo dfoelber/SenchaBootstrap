@@ -1,7 +1,4 @@
 
-  _________                        .__            __________                  __            __
- /   _____/  ____    ____    ____  |  |__  _____  \______   \  ____    ____ _/  |_  _______/  |_ _______ _____   ______
- \_____  \ _/ __ \  /    \ _/ ___\ |  |  \ \__  \  |    |  _/ /  _ \  /  _ \\   __\/  ___/\   __\\_  __ \\__  \  \____ \
- /        \\  ___/ |   |  \\  \___ |   Y  \ / __ \_|    |   \(  <_> )(  <_> )|  |  \___ \  |  |   |  | \/ / __ \_|  |_> >
-/_______  / \___  >|___|  / \___  >|___|  /(____  /|______  / \____/  \____/ |__| /____  > |__|   |__|   (____  /|   __/
-        \/      \/      \/      \/      \/      \/        \/                           \/                     \/ |__|
+SenchaBootstrap is a port of Twitter's [Bootstrap javascript library](http://twitter.github.com/bootstrap/javascript.html) from JQuery to [Ext-Core](http://www.sencha.com/products/extcore).
+
+There is a one-to-one mapping for each javascript file in lib/ as well as examples in examples/.
